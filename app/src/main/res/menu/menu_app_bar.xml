@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bookmarks"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_bookmarks_name"
+        android:title="@string/bookmarks">
+        <menu >
+            <group android:id="@+id/group_actions" >
+            <item
+                android:id="@+id/add_bookmark"
+                android:enabled="false"
+                android:title="@string/add_bookmark"/>
+            <item
+                android:id="@+id/delete_bookmark"
+                android:enabled="false"
+                android:title="@string/delete_this_bookmark"/>
+            </group>
+            <group android:id="@+id/group_bookmarks" >
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UserPreferences</string>
+    <string name="add_bookmark">Add Bookmark</string>
+    <string name="delete_bookmark">Delete Bookmark</string>
+    <string name="input_name">Input Bookmark Name</string>
+    <string name="ok">OK</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="no_bookmarks">No Bookmarks</string>
+    <string name="bookmark_name">Bookmark Name</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_this_bookmark">Delete This Bookmark</string>
+
+    <string-array name="themes_list">
+        <item>Chapter 1</item>
+        <item>Chapter 2</item>
+        <item>Chapter 3</item>
+    </string-array>
+</resources>
